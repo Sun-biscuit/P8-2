@@ -7,13 +7,7 @@ int countWords(string);
 
 int main() {
 
-    string strng;
-    while (true) {
-        cout << "Enter a string or Q to quit: ";
-        getline(cin, strng);
-        if (strng == "Q")break;
-        cout << "Word count: " << countWords(strng) << endl;
-    }
+    
 
 
 
